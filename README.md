@@ -3,6 +3,7 @@
 Click Automator Pro is a high-performance Python-based automation utility designed to record complex mouse and keyboard sequences and play them back with precision. It features a modern GUI that stays pinned on top of other applications, making it ideal for gaming, repetitive data entry, and workflow automation.
 
 
+
 ✨ Features
 
 Dual-Input Recording: Captures both mouse movements/clicks and keyboard strokes simultaneously.
@@ -18,16 +19,18 @@ Super-Pinning: Stays on top of other windows (even high-priority apps) using nat
 Portable Storage: Save and load your automation sequences as lightweight .json files.
 
 
+
 🚀 Getting Started
 
 Installation
 
 If you are running the source code, install the required dependencies:
 
-Bash
+`````Bash
+
 pip install pynput
 
-
+`````
 How to Use
 Record: Click Start Recording, perform your actions, then click Stop Recording.
 
@@ -36,6 +39,7 @@ Save: Click Save Latest Recording to name and store your automation.
 Load: Click Select JSON File to choose a sequence for playback.
 
 Execute: Press Ctrl + X to start the playback. Press Ctrl + X again to stop it immediately.
+
 
 
 🛠️ Technical Details
@@ -49,13 +53,17 @@ Binary Build: Compiled using PyInstaller.
 Platform: Optimized for Windows (includes ctypes for user32.dll window management).
 
 
+
 📦 Building the Executable
 
 To create your own standalone .exe, run the following command in your Windows terminal:
 
-Bash
+
+`````Bash
+
 pyinstaller --noconfirm --onefile --windowed --name "ClickAutomator_Pro" --hidden-import "pynput.keyboard._win32" --hidden-import "pynput.mouse._win32" --hidden-import "pynput.platforms.common" main.py
 
+`````
 
 ⚠️ Safety & Requirements
 
@@ -68,4 +76,5 @@ Security: Some antivirus software may flag the app because it "hooks" into mouse
 
 
 📜 License
+
 This project is open-source and available under the MIT License.
